@@ -1,0 +1,26 @@
+//File Name: q1143/RelationalOperations.java
+
+package q1143;
+import java.util.Scanner;
+public class RelationalOperations{
+public static void main(String []args){
+	 // write your code below
+	 Scanner scanner = new Scanner(System.in);
+	 System.out.print("Enter the weight of object1: ");
+	 double object1 = scanner.nextDouble();
+	 System.out.print("Enter the weight of object2: ");
+	 double object2 = scanner.nextDouble();
+	 System.out.println("Relation between object1 and object2:");
+	 System.out.println("object1 == object2 = " + (object1 == object2));
+	 System.out.println("object1 != object2 = " + (object1 != object2));
+	 System.out.println("object1 > object2 = " + (object1 > object2));
+	 System.out.println("object1 < object2 = " + (object1 < object2));
+	 System.out.println("object1 >= object2 = " + (object1 >= object2));
+	 System.out.println("object1 <= object2 = " + (object1<= object2));
+	 
+       
+       
+       
+	}
+}
+
